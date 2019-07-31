@@ -33,7 +33,7 @@ python main.py --help
 
 python main.py --loss logratio \
                --model resnet34 \ 
-               --result-name Logratio \ # You can choose anything
+               --result-name Logratio \
                --optimizer sgd \
                --lr 0.01 \ 
                --lr-decay 1e-4 \ 
@@ -48,7 +48,7 @@ python main.py --loss logratio \
 python main.py --loss triplet \
                --is-norm True \
                --model resnet34 \ 
-               --result-name Logratio \ # You can choose anything
+               --result-name Triplet \
                --optimizer sgd \
                --lr 0.01 \ 
                --lr-decay 1e-4 \ 
