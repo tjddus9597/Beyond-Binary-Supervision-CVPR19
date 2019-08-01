@@ -58,7 +58,7 @@ python main.py --loss triplet \
                --sampling dense \               
                
 # Train a embedding network of resnet34 (d=128)
-# using triplet loss (margin=0.03) with **binary triplet sampling**.
+# using triplet loss (margin=0.2) with **binary triplet sampling**.
 
 python main.py --loss triplet \
                --is-norm True \
