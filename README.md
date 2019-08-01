@@ -29,31 +29,45 @@ If you find this work useful in your research, please consider citing:
 python main.py --help
 
 # Train a embedding network of resnet34 (d=128)
-# using logratio loss with dense triplet sampling.
+# using logratio loss with **dense triplet sampling**.
 
 python main.py --loss logratio \
                --model resnet34 \ 
-               --result-name Logratio \
+               --result-name dense_Logratio \
                --optimizer sgd \
                --lr 0.01 \ 
                --lr-decay 1e-4 \ 
                --batch-size 150 \
                --num-NN 5 \
-               --embedding_size 128 \
+               --embedding-size 128 \
                --sampling dense \
                
 # Train a embedding network of resnet34 (d=128)
-# using triplet loss (margin=0.03) with dense triplet sampling.
+# using triplet loss (margin=0.03) with **dense triplet sampling**.
 
 python main.py --loss triplet \
                --is-norm True \
                --model resnet34 \ 
-               --result-name Triplet \
+               --result-name dense_Triplet \
                --optimizer sgd \
                --lr 0.01 \ 
                --lr-decay 1e-4 \ 
                --batch-size 150 \
                --num-NN 5 \
-               --embedding_size 128 \
+               --embedding-size 128 \
                --sampling dense \               
+               
+# Train a embedding network of resnet34 (d=128)
+# using triplet loss (margin=0.03) with **binary triplet sampling**.
+
+python main.py --loss triplet \
+               --is-norm True \
+               --model resnet34 \ 
+               --result-name naive_Triplet \
+               --optimizer sgd \
+               --lr 0.01 \ 
+               --lr-decay 1e-4 \ 
+               --batch-size 150 \
+               --embedding-size 128 \
+               --sampling naive \     
 
