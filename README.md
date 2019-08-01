@@ -20,7 +20,7 @@ If you find this work useful in your research, please consider citing:
 * tensorboardX
 
 ## Prerequisites 
-1. Download pretrained *human pose dataset* with labels from [here](https://github.com/BVLC/caffe/tree/master/models/bvlc_googlenet)
+1. Download pretrained **human pose dataset** with labels from [here](https://drive.google.com/file/d/1_KJw9wD1WEjproxuNQf2M9J3JamTt9WD/view?usp=sharing)
 2. Extract the zip file into `./data/`
 
 ## Human Pose Retrieval Quick Start
