@@ -13,7 +13,7 @@ If you find this work useful in your research, please consider citing:
     }
     
 ##  Dependency
-* Python 3.6
+* Python >=3.6
 * Pytorch >=0.4.1
 * tqdm (pip install tqdm)
 * scipy
