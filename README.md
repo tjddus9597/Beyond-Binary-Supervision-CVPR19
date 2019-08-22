@@ -1,4 +1,5 @@
 # Deep Metric Learning Beyond Binary Supervision
+<p align="center"><img src="fig_main.jpg" alt="outline" width="90%"></p>
 Official pytorch Implementation of [Deep Metric Learning Beyond Binary Supervision](https://arxiv.org/abs/1904.09626), CVPR 2019
 
 ## Citing this work
